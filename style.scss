@@ -1,0 +1,54 @@
+body {
+    font-family: 'Common Pixel', sans-serif;
+    background-image: url(/image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.name {
+    color: black;
+    border: 5px ;
+    border-style: double;
+    font-size: xx-large;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #D7AC7B;
+    opacity: 0.5;
+
+}
+
+.begin-btn {
+    background-color: #D7AC7B;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 50vh;
+    font-size: 250px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 25vh;
+    z-index: 2;
+    opacity: 0.7;
+
+    &:hover {
+        background-color: #473334;
+        color: #D7AC7B;
+    }
+}
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #CFB997;
+    color: white;
+    text-align: center;
+}
+
