@@ -11,22 +11,15 @@
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
-  }
-  
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Remove the margin in all browsers.
-   */
-  
-  body {
-    margin: 0;
     font-family: 'Common Pixel', sans-serif;
-    background-image: url("image/background.jpg");
+    background-image: url('background.jpg');
+    background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 1;
   }
+
+
 
   .name {
     color: black;
@@ -46,7 +39,7 @@
   background-color: #D7AC7B;
   color: black;
   border: none;
-  width: 100vw;
+  width: 100%;
   height: 50vh;
   font-size: 15rem;
   cursor: pointer;
@@ -54,12 +47,63 @@
   margin-top: 25vh;
   z-index: 2;
   opacity: 0.7;
+  box-shadow: 2px 1px 2px gray;
+
+  &:hover {
+      background-color: #473334;
+      color: #D7AC7B;
+  }
+
+
+}
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #CFB997;
+  color: white;
+  text-align: center;
+}
+
+.op1 {
+  align-items: center;
+  padding: 10rem 5rem 5rem 5rem;  
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: absolute;
+  color: black;
+  border: none;
+  width: 27%;
+  height: 35vh;
+  font-size: 5rem;
+  cursor: pointer;
+  opacity: 0.7;
+
 
   &:hover {
       background-color: #473334;
       color: #D7AC7B;
   }
 }
+
+
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
   
   /**
    * Render the `main` element consistently in IE.
@@ -384,3 +428,102 @@
   [hidden] {
     display: none;
   }
+
+  @media screen and (max-width:600px)
+  {
+    html {
+      line-height: 1.15; /* 1 */
+      -webkit-text-size-adjust: 100%; /* 2 */
+      font-family: 'Common Pixel', sans-serif;
+      background-image: url('background.jpg');
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100vh;
+    }
+
+
+    .name {
+      color: black;
+      border: 5px ;
+      border-style: double;
+      font-size: 1.5rem;
+      margin-top: 0;
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      background-color: #D7AC7B;
+      opacity: 0.5;
+  
+  }
+
+
+    .begin-btn {
+      background-color: #D7AC7B;
+      color: black;
+      border: none;
+      width: 100%;
+      height: 50vh;
+      font-size: 6rem;
+      position: absolute;
+      margin-top: 25vh;
+      z-index: 2;
+      opacity: 0.7;
+    
+      &:hover {
+          background-color: #473334;
+          color: #D7AC7B;
+      }
+    }
+  }
+
+  @media screen and (max-width:1200px)
+  {
+    html {
+      line-height: 1.15; /* 1 */
+      -webkit-text-size-adjust: 100%; /* 2 */
+      font-family: 'Common Pixel', sans-serif;
+      background-image: url('background.jpg');
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .name {
+      color: black;
+      border: 5px ;
+      border-style: double;
+      font-size: 2rem;
+      margin-top: 0;
+      position: fixed;
+      width: 100%;
+      text-align: center;
+      background-color: #D7AC7B;
+      opacity: 0.5;
+  
+  }
+
+    .begin-btn {
+      background-color: #D7AC7B;
+      color: black;
+      border: none;
+      width: 100%;
+      height: 50vh;
+      font-size: 6rem;
+      position: absolute;
+      margin-top: 25vh;
+      z-index: 2;
+      opacity: 0.7;
+    
+      &:hover {
+          background-color: #473334;
+          color: #D7AC7B;
+      }
+    }
+  }
+  
