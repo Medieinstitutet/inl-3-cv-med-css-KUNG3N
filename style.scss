@@ -60,6 +60,7 @@
 }
 
 .hero-text {
+  /*
   background-image: url('gif.gif');
   background-size: cover;
   -webkit-background-clip: text;
@@ -71,9 +72,50 @@
   flex-direction: column;
   position: absolute;
   width: 100%;
-}
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  margin-top: 10vh;
+  overflow: hidden;  
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 
-test commit
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }*/
+    
+      overflow: hidden; /* Ensures the content is not revealed until the animation */
+      border-right: .15em solid orange; /* The typwriter cursor */
+      white-space: nowrap; /* Keeps the content on a single line */
+      margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+      letter-spacing: .15em; /* Adjust as needed */
+      animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    
+    
+    /* The typing effect */
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: orange; }
+    }
+}
 
 footer {
   display: flex;
@@ -87,12 +129,23 @@ footer {
   text-align: center;
 }
 
-.op1 {
+.container{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 10rem;
+  width: 100%;
+  color: black;
+  
+}
+
+/*
+.op1, .op2, .op3, .op4 {
   align-items: center;
   padding: 10rem 5rem 5rem 5rem;  
   margin-top: 4rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   z-index: 2;
   position: absolute;
   color: black;
@@ -109,6 +162,8 @@ footer {
       color: #D7AC7B;
   }
 }
+*/
+
 
 
 
