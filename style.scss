@@ -117,6 +117,22 @@
     }
 }
 
+.hero-text {
+  background-image: url('gif.gif');
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 11rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+test commit
+
 footer {
   display: flex;
   flex-shrink: 0;
