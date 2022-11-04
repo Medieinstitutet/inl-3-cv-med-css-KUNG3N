@@ -1,0 +1,10 @@
+@import "normalize";
+
+body{
+    background: rgb(71,51,52);
+    background: radial-gradient(circle, rgba(71,51,52,1) 8%, rgba(215,172,123,1) 91%);
+}
+
+.name{
+    border: 3px solid red($color: #000000);
+}
