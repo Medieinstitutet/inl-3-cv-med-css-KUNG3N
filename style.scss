@@ -218,7 +218,7 @@ footer {
     overflow: hidden; 
     border-right: .15em solid orange; 
     white-space: wrap; 
-    margin-top: auto;
+    margin-top: 10rem;
     letter-spacing: .15em; 
     animation: 
       typing 3.5s steps(40, end),
@@ -229,8 +229,7 @@ footer {
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-size: 3.3rem;
-    width: 80%;
-    margin-top: 3rem;
+    width: 100%;
   }
     
     
@@ -245,6 +244,22 @@ footer {
   @keyframes blink-caret{
     from, to { border-color: transparent }
     50% { border-color: orange;}
+  }
+
+  .op1{
+    font-size: 1.3rem;
+  }
+
+  .op2{
+    font-size: 0.7rem;
+  }
+
+  .op3{
+    font-size: 0.7rem;
+  }
+
+  .op4{
+    font-size: 1.3rem;
   }
   
 }
