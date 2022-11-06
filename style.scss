@@ -71,7 +71,7 @@
 .hero-text {
   overflow: hidden; 
   border-right: .15em solid orange; 
-  white-space: nowrap; 
+  white-space: wrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   animation: 
@@ -162,10 +162,8 @@ footer {
   background-color: #D7AC7B;
 }
 
-
-
-@media screen and (max-width:600px)
-{
+@media screen and (min-device-width : 320px) 
+              and (max-device-width : 480px){
   html {
     font-family: 'Common Pixel', sans-serif;
     background-image: url('background.jpg');
@@ -174,9 +172,10 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
   }
-
 
   .name {
     color: black;
@@ -192,25 +191,68 @@ footer {
   }
 
 
-  .begin-btn {
+  .begin-btn{
+    display: flex;
     background-color: #D7AC7B;
     color: black;
-    border: none;
-    width: 100%;
-    height: 50vh;
-    font-size: 6rem;
-    margin-top: 25vh;
+    font-size: 5rem;
+    padding: 1%;
+    cursor: pointer;
     opacity: 0.7;
-    
-    &:hover {
-      background-color: #473334;
-    color: #D7AC7B;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border: 3px solid;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    touch-action: manipulation;
+    margin-bottom: 7rem;
+    transition: all 0.2s ease-in-out;
+  
+    &:active{
+      box-shadow: 0px 0px 0px 0px;
+      top: 5px;
+      left: 5px;
     }
   }
+  
+  .hero-text{
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: wrap; 
+    margin-top: auto;
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+    background-image: url('gif.gif');
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3.3rem;
+    width: 80%;
+    margin-top: 3rem;
+  }
+    
+    
+       
+  @keyframes typing{
+    from { width: 0 }
+    to { width: 100% }
+  }
+    
+        
+        
+  @keyframes blink-caret{
+    from, to { border-color: transparent }
+    50% { border-color: orange;}
+  }
+  
 }
+  
+    
 
-@media screen and (max-width:1200px){
-
+@media screen and (min-device-width : 768px) 
+              and (max-device-width : 1024px){
   html {
     font-family: 'Common Pixel', sans-serif;
     background-image: url('background.jpg');
@@ -219,7 +261,9 @@ footer {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
   }
 
   .name {
@@ -233,5 +277,73 @@ footer {
     text-align: center;
     background-color: #D7AC7B;
     opacity: 0.5;
+  }
+
+  .hero-text{
+    margin-top: 10%;
+  }
+
+  .op1{
+    font-size: 2.5rem;
+  }
+
+  .op2{
+    font-size: 1.7rem;
+  }
+
+  .op3{
+    font-size: 1.5rem;
+  }
+
+  .op4{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-device-width : 1200px){
+  html {
+    font-family: 'Common Pixel', sans-serif;
+    background-image: url('background.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+  }
+
+  .name {
+    color: black;
+    border: 5px ;
+    border-style: double;
+    font-size: 2rem;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #D7AC7B;
+    opacity: 0.5;
+  }
+
+  .hero-text{
+    margin-top: 10%;
+  }
+
+  .op1{
+    font-size: 2.5rem;
+  }
+
+  .op2{
+    font-size: 1.7rem;
+  }
+
+  .op3{
+    font-size: 1.5rem;
+  }
+
+  .op4{
+    font-size: 2.5rem;
   }
 }
