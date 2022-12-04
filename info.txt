@@ -1,0 +1,94 @@
+<p>
+            Här har ni en person som älskar att hjälpa och prata med så många människor som 
+            möjligt.
+        
+            En trevlig kille som är bra på att hålla tider som har lätt att lära sig nya saker, 
+            gillar utmaningar och strävar efter själv utveckling. Det viktigaste för mig är att skapa 
+            relationer som är betydelsefulla och där båda sidorna kan lära sig någonting nytt.
+        </p>
+        <h1>Arbetslivserfarenheter</h1>
+            <ul>    
+                <li>
+                    <strong>Barnskötare, Kullborg förskola, Söderköping</strong>
+                    <h6>Juli 2016 — Augusti 2016</h6>
+                    <p>Jag jobbade i en förskola under sommaren efter nian för tre veckor med att ta hand om barn.</p>
+                </li>
+
+                <li>
+                    <strong>Vårdbiträde , Servicehuset Blå Porten, Söderköping</strong>
+                    <h6>June 2017 - July 2017</h6>
+                    <p>Jag jobbade i en äldre boende efter första året av gymnasiet för tre veckor med att ta hand om äldre boendets invånare.</p>
+                </li>
+
+                <li>
+                    <strong>Säljare, Karem livsmedel, Söderköping</strong>
+                    <h6>Jan 2018 - Juli 2018</h6>
+                    <p>Jag jobbade som säljare i en livsmedel affär för 6 månader under andra året av gymnasiet.</p>
+                </li>
+                
+                <li>
+                    <strong>Kundtjänst, Telia Company, Norrköping</strong>
+                    <h6>December 2020 - Juli 2021</h6>
+                    <p></p>
+                </li>
+
+                <li>
+                    <strong>Säljare, Circle K Söderköping, Söderköping</strong>
+                    <h6>Agusti 2018 - tillsvidare</h6>
+                    <p>Jag är timanställd hos Circle K Söderköping där jag tar hand om nästan allt som har 
+                        med kund bemötande och försäljning att göra.</p>
+                </li>
+
+                <li>
+                    <strong>Kundtjänst, Telenor, Norrköping</strong>
+                    <h6>Oktobor 2021 - tillsvidare</h6>
+                    <p>Jag tar hand om inkommande samtal och svarar på leverans samt beställnings frågor 
+                        och fokuserar på mer försäljning.</p>
+                </li>
+            </ul>
+        
+        <h1>Utbildning</h1>
+        
+            <ul>
+                <li>
+                    <strong>Grundskola, Olika länder i mellanösten, Jordanien, Syrien</strong>
+                    <h6>Agusti 2006 - April 2012</h6>
+                    <p>Jag hade haft min grundutbildning i mellanöstern från årskurs 1 till 6.</p>
+                </li>
+
+                <li>
+                    <strong>Grundskola, Ramunderskolan, Söderköping</strong>
+                    <h6>Agusti 2013 - Juni 2016</h6>
+                </li>
+
+                <li>
+                    <strong>Gymnasiet, Realgymnasiet, Norrköping</strong>
+                    <h6>Agusti 2016 - Juni 2019</h6>
+                </li>
+
+                <li>
+                    <strong>Driftekniker inom energi och processteknik, ESBS AB, Norrköping</strong>
+                    <h6>Agusti 2019 - Oktober 2019</h6>
+                </li>
+            </ul>
+        
+
+        <section>
+            <h3>Hobbies</h3>
+            <p>Jag gillar att omgås med mina 
+                vänner och testa nya saker. 
+                Jag gillar att prata med olika 
+                människor, Detta har gjort att
+                jag har lätta att lära känna nya 
+                människor och skapa bra lagande. 
+                Andra intresse kan också vara 
+                media skapande och filmning.
+                Sist men inte minst är filosofi</p>
+        </section> 
+        
+        <footer>
+            <h1>Kontaktuppgifter</h1>
+            <h4>Tele: <a href="tele:0735437748">0735437748</a></h4>
+            <h4>Email: <a href="mailto:abdumah2021fr@gmail.com">abdumah2021fr@gmail.com</a></h4>
+            <h4>Adress: <a href="https://goo.gl/maps/z9EZ7C4FvHvPFwUAA" target="_blank">Ringvägen 34m 61433 Söderköping</a></h4>
+        </footer>
